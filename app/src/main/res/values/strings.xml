@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">GalleryLight</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_tagline">Beautiful projection for your gallery</string>
+
+    <string name="home_title">GalleryLight</string>
+    <string name="home_subtitle">Pick a video or image to project</string>
+
+    <string name="card_video_title">Play Video</string>
+    <string name="card_video_sub">Pick a video from your gallery</string>
+
+    <string name="card_image_title">Image Projector</string>
+    <string name="card_image_sub">Project &amp; swipe through images</string>
+
+    <string name="card_flashlight_title">Flashlight</string>
+    <string name="card_flashlight_on">Torch is ON</string>
+    <string name="card_flashlight_off">Torch is OFF</string>
+
+    <string name="card_about_title">About &amp; Help</string>
+    <string name="card_about_sub">Info, rate, share, contact</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_playback">Playback</string>
+    <string name="settings_section_display">Display</string>
+    <string name="settings_auto_play">Auto-play on open</string>
+    <string name="settings_loop">Loop videos</string>
+    <string name="settings_default_speed">Default speed</string>
+    <string name="settings_default_brightness">Default brightness</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_saved">Settings saved</string>
+
+    <string name="about_title">About</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_feature_video">Video playback with speed &amp; effects</string>
+    <string name="about_feature_image">Image projection with swipe &amp; zoom</string>
+    <string name="about_feature_flashlight">Flashlight while projecting</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_developer_name">Abinet Endale</string>
+    <string name="about_developer_role">IT Student · Madda Walabu University, Ethiopia</string>
+    <string name="about_contact_title">Contact</string>
+    <string name="about_email">endaleabinet67@gmail.com</string>
+    <string name="about_privacy">Privacy Policy</string>
+    <string name="about_rate">Rate this app</string>
+    <string name="about_share">Share app</string>
+    <string name="about_feedback">Send feedback</string>
+    <string name="about_copyright">© 2025 Abinet Endale. All rights reserved.</string>
+
+    <string name="player_effects">Effects</string>
+    <string name="player_speed">Speed</string>
+    <string name="player_loop_on">Loop on</string>
+    <string name="player_loop_off">Loop off</string>
+    <string name="player_brightness">Brightness</string>
+    <string name="player_pick_video_first">Please pick a video first</string>
+    <string name="player_playback_error">Unable to play this video</string>
+
+    <string name="image_prev">Prev</string>
+    <string name="image_next">Next</string>
+    <string name="image_pick">Pick images</string>
+    <string name="image_effect">Effect</string>
+    <string name="image_no_images">No images selected</string>
+
+    <string name="cd_back">Back</string>
+    <string name="cd_flashlight">Toggle flashlight</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_close">Close</string>
+
+    <string name="privacy_url">https://abihacker456.github.io/GalleryLight-privacy-policy/privacy.html</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=com.abinet.gallerylight</string>
+    <string name="share_body">Check out GalleryLight — a beautiful way to project your videos and images.\n\n</string>
+</resources>

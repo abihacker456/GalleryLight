@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Play triangle -->
+    <path
+        android:pathData="M44,38 L44,70 L72,54 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Film strip accent -->
+    <path
+        android:pathData="M36,34 h6 v6 h-6 z M36,46 h6 v6 h-6 z M36,58 h6 v6 h-6 z M36,70 h6 v6 h-6 z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85" />
+</vector>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.GalleryLight" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/gl_primary</item>
+        <item name="colorOnPrimary">@color/gl_on_primary</item>
+        <item name="colorPrimaryContainer">@color/gl_primary_container</item>
+        <item name="colorSecondary">@color/gl_secondary</item>
+        <item name="colorOnSecondary">@color/gl_on_secondary</item>
+
+        <item name="android:colorBackground">@color/gl_background</item>
+        <item name="colorSurface">@color/gl_surface</item>
+        <item name="colorSurfaceVariant">@color/gl_surface_variant</item>
+        <item name="colorOnSurface">@color/gl_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/gl_on_surface_variant</item>
+        <item name="colorOutline">@color/gl_outline</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/gl_background</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.GalleryLight.Fullscreen" parent="Theme.GalleryLight">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Widget.GalleryLight.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/gl_surface_variant</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <style name="Widget.GalleryLight.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

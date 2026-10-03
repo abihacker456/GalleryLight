@@ -1,0 +1,3 @@
+-keepattributes SourceFile,LineNumberTable
+-keep class androidx.media3.** { *; }
+-dontwarn androidx.media3.**

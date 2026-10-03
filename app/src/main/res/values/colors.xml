@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gl_primary">#BB86FC</color>
+    <color name="gl_on_primary">#1A0033</color>
+    <color name="gl_primary_container">#3700B3</color>
+    <color name="gl_secondary">#03DAC6</color>
+    <color name="gl_on_secondary">#00201C</color>
+
+    <color name="gl_background">#0F1115</color>
+    <color name="gl_surface">#1A1D24</color>
+    <color name="gl_surface_variant">#232730</color>
+    <color name="gl_outline">#2C313B</color>
+
+    <color name="gl_on_background">#E6E8EC</color>
+    <color name="gl_on_surface">#E6E8EC</color>
+    <color name="gl_on_surface_variant">#9BA1AC</color>
+
+    <color name="gl_scrim">#80000000</color>
+</resources>
