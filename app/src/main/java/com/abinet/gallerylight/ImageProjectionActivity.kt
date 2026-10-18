@@ -9,7 +9,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.PickVisualMediaRequest
@@ -212,22 +211,14 @@ class ImageProjectionActivity : AppCompatActivity() {
         inner class VH(val zoom: ZoomableImageView) : RecyclerView.ViewHolder(zoom)
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
-            val ctx = parent.context
-            val container = FrameLayout(ctx).apply {
-                layoutParams = ViewGroup.LayoutParams(
-                    ViewGroup.LayoutParams.MATCH_PARENT,
-                    ViewGroup.LayoutParams.MATCH_PARENT
-                )
-            }
-            val iv = ZoomableImageView(ctx).apply {
-                layoutParams = FrameLayout.LayoutParams(
-                    FrameLayout.LayoutParams.MATCH_PARENT,
-                    FrameLayout.LayoutParams.MATCH_PARENT
+            val iv = ZoomableImageView(parent.context).apply {
+                layoutParams = RecyclerView.LayoutParams(
+                    RecyclerView.LayoutParams.MATCH_PARENT,
+                    RecyclerView.LayoutParams.MATCH_PARENT
                 )
                 scaleType = ImageView.ScaleType.FIT_CENTER
                 onScaleChanged = { scale -> this@ImageAdapter.onScaleChanged?.invoke(scale) }
             }
-            container.addView(iv)
             return VH(iv)
         }
 
