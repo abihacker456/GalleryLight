@@ -255,12 +255,14 @@ class VideoPlayerActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         player.pause()
+        b.btnPlay.text = "▶"
         turnOffFlashlight()
     }
 
     override fun onResume() {
         super.onResume()
         hideSystemBars()
+        b.btnPlay.text = if (player.isPlaying) "⏸" else "▶"
     }
 
     override fun onDestroy() {

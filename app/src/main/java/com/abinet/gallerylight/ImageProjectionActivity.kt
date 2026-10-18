@@ -50,6 +50,7 @@ class ImageProjectionActivity : AppCompatActivity() {
             uris.clear()
             uris.addAll(result)
             adapter.notifyDataSetChanged()
+            b.pager.setCurrentItem(0, false)
             updateInfo()
         }
     }
@@ -88,6 +89,11 @@ class ImageProjectionActivity : AppCompatActivity() {
         if (isFlashlightOn) turnOnFlashlight()
         updateInfo()
         b.btnEffect.text = "🎨 ${effectNames[effectIndex]}"
+
+        // If opened with no images, show controls immediately so user can pick
+        if (uris.isEmpty()) {
+            showControls()
+        }
     }
 
     private fun setupButtons() {

@@ -67,4 +67,10 @@
     <string name="privacy_url">https://abihacker456.github.io/GalleryLight-privacy-policy/privacy.html</string>
     <string name="play_store_url">https://play.google.com/store/apps/details?id=com.abinet.gallerylight</string>
     <string name="share_body">Check out GalleryLight — a beautiful way to project your videos and images.\n\n</string>
+
+    <!-- Flashlight Strings -->
+    <string name="flashlight_not_available">Not available on this device</string>
+    <string name="flashlight_no_device">This device has no flashlight</string>
+    <string name="flashlight_permission_required">Camera permission required for flashlight</string>
+    <string name="flashlight_error">Flashlight error: %1$s</string>
 </resources>

@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         ActivityResultContracts.RequestPermission()
     ) { granted ->
         if (granted) toggleFlashlightInternal()
-        else Toast.makeText(this, "Camera permission required for flashlight", Toast.LENGTH_SHORT).show()
+        else Toast.makeText(this, R.string.flashlight_permission_required, Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -110,13 +110,13 @@ class MainActivity : AppCompatActivity() {
             }
         } catch (_: Exception) { hasFlash = false }
         if (!hasFlash) {
-            b.flashlightState.text = "Not available on this device"
+            b.flashlightState.text = getString(R.string.flashlight_not_available)
         }
     }
 
     private fun requestToggleFlashlight() {
         if (!hasFlash) {
-            Toast.makeText(this, "This device has no flashlight", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.flashlight_no_device, Toast.LENGTH_SHORT).show()
             return
         }
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
             )
             b.flashlightEmoji.text = if (isFlashlightOn) "💡" else "🔦"
         } catch (e: Exception) {
-            Toast.makeText(this, "Flashlight error: ${e.message}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.flashlight_error, e.message), Toast.LENGTH_SHORT).show()
         }
     }
 
