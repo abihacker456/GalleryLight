@@ -19,6 +19,10 @@ A beautiful, modern Android app to play videos and project images from your gall
 - Material Components 1.13
 - Coil
 
+## Download from playstore
+
+- https://play.google.com/store/apps/details?id=com.abinet.gallerylight&hl=en-US
+
 ## Privacy
 
 GalleryLight does not collect, transmit, or share any user data.
